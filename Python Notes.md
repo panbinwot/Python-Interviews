@@ -92,15 +92,16 @@ Python is a multi-paradigm programming language, meaning it supports OOP and fun
 
 ### Decorator:
 Use cases, numpy vectorization decorator, pandas decorator. Basically a wrapper over a function.
-#### What is a decortor
-It is a way to specify management or augmentation code for functions and classes. Decorators themselves take the form of callable objects, functions, that process other callable ojects. It provides a way to insert automatically run code at the end of function and class definition statements. There are 2 types:
+#### What is a decorator
+It is a way to specify management or augmentation code for functions and classes. Decorators themselves take the form of callable objects, functions, that process other callable ojects. It provides a way to insert automatically run code at the end of function and class definition statements. 
+- There are 2 types:
     1. Function Decorators: do name binding at function definition time, providing a layer of logic that can manage functions and meothods, or later calls to them.
     2. Class Decorators: do name binding at class definition time,
 
 #### Why decorators?
-    1. Decorators have a very explicit syntax,which makes them easier to spot than helper function calls that may be arbitrarily far-removed from the subject functions or classes.
-    2. Decorators are applied once, when the subject function or class is defined. 
-    3. Because of both of the prior points, decorators make it less likely that a user of an API will forget to augment function or class according to API requirements.
+1. Decorators have a very explicit syntax,which makes them easier to spot than helper function calls that may be arbitrarily far-removed from the subject functions or classes.
+2. Decorators are applied once, when the subject function or class is defined. 
+3. Because of both of the prior points, decorators make it less likely that a user of an API will forget to augment function or class according to API requirements.
     
 ### Generator:
 #### Iterator in Python
